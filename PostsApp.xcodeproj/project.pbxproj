@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D705FD0B27B08F0A0004362C /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D705FD0A27B08F0A0004362C /* PostViewModel.swift */; };
+		D705FD1627B0B45E0004362C /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D705FD1427B0B45E0004362C /* CustomTableViewCell.swift */; };
+		D705FD1727B0B45E0004362C /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D705FD1527B0B45E0004362C /* CustomTableViewCell.xib */; };
+		D705FD1927B0CDAC0004362C /* CustomTableViewCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D705FD1827B0CDAC0004362C /* CustomTableViewCellDelegate.swift */; };
+		D705FD1B27B0E5A70004362C /* PhotosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D705FD1A27B0E5A70004362C /* PhotosController.swift */; };
+		D705FD1E27B0EE6E0004362C /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D705FD1D27B0EE6E0004362C /* UIView.swift */; };
+		D705FD2027B0F0600004362C /* PhotoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D705FD1F27B0F0600004362C /* PhotoViewModel.swift */; };
+		D705FD2227B0F0CA0004362C /* CommentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D705FD2127B0F0CA0004362C /* CommentViewModel.swift */; };
+		D705FD2627B0F5A40004362C /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D705FD2527B0F5A40004362C /* Utils.swift */; };
 		D7E208F427B0419E0070A538 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E208F327B0419E0070A538 /* AppDelegate.swift */; };
 		D7E208F627B0419E0070A538 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E208F527B0419E0070A538 /* SceneDelegate.swift */; };
 		D7E208F827B0419E0070A538 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E208F727B0419E0070A538 /* ViewController.swift */; };
@@ -39,6 +48,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D705FD0A27B08F0A0004362C /* PostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewModel.swift; sourceTree = "<group>"; };
+		D705FD1427B0B45E0004362C /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		D705FD1527B0B45E0004362C /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		D705FD1827B0CDAC0004362C /* CustomTableViewCellDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCellDelegate.swift; sourceTree = "<group>"; };
+		D705FD1A27B0E5A70004362C /* PhotosController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosController.swift; sourceTree = "<group>"; };
+		D705FD1D27B0EE6E0004362C /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		D705FD1F27B0F0600004362C /* PhotoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewModel.swift; sourceTree = "<group>"; };
+		D705FD2127B0F0CA0004362C /* CommentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentViewModel.swift; sourceTree = "<group>"; };
+		D705FD2527B0F5A40004362C /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		D7E208F027B0419E0070A538 /* PostsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PostsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7E208F327B0419E0070A538 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7E208F527B0419E0070A538 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +100,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D705FD0D27B09F4B0004362C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D705FD1C27B0EE4E0004362C /* Extensions */,
+				D705FD1327B0B42E0004362C /* CustomTableViewCell */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D705FD1327B0B42E0004362C /* CustomTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				D705FD1427B0B45E0004362C /* CustomTableViewCell.swift */,
+				D705FD1527B0B45E0004362C /* CustomTableViewCell.xib */,
+				D705FD1827B0CDAC0004362C /* CustomTableViewCellDelegate.swift */,
+			);
+			path = CustomTableViewCell;
+			sourceTree = "<group>";
+		};
+		D705FD1C27B0EE4E0004362C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D705FD1D27B0EE6E0004362C /* UIView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D705FD2327B0F12D0004362C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D7E2092327B042810070A538 /* Model */,
+				D7E2092427B0428D0070A538 /* View */,
+				D7E2092527B042960070A538 /* ViewModel */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D705FD2427B0F58D0004362C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D705FD2527B0F5A40004362C /* Utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		D7E208E727B0419E0070A538 = {
 			isa = PBXGroup;
 			children = (
@@ -105,12 +168,11 @@
 		D7E208F227B0419E0070A538 /* PostsApp */ = {
 			isa = PBXGroup;
 			children = (
-				D7E2092327B042810070A538 /* Model */,
-				D7E2092427B0428D0070A538 /* View */,
-				D7E2092527B042960070A538 /* ViewModel */,
+				D705FD2427B0F58D0004362C /* Utils */,
+				D705FD0D27B09F4B0004362C /* Components */,
+				D705FD2327B0F12D0004362C /* App */,
 				D7E208F327B0419E0070A538 /* AppDelegate.swift */,
 				D7E208F527B0419E0070A538 /* SceneDelegate.swift */,
-				D7E208F727B0419E0070A538 /* ViewController.swift */,
 				D7E208F927B0419E0070A538 /* Main.storyboard */,
 				D7E208FC27B041A20070A538 /* Assets.xcassets */,
 				D7E208FE27B041A20070A538 /* LaunchScreen.storyboard */,
@@ -149,6 +211,8 @@
 		D7E2092427B0428D0070A538 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D7E208F727B0419E0070A538 /* ViewController.swift */,
+				D705FD1A27B0E5A70004362C /* PhotosController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -156,6 +220,9 @@
 		D7E2092527B042960070A538 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				D705FD0A27B08F0A0004362C /* PostViewModel.swift */,
+				D705FD1F27B0F0600004362C /* PhotoViewModel.swift */,
+				D705FD2127B0F0CA0004362C /* CommentViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -266,6 +333,7 @@
 			files = (
 				D7E2090027B041A20070A538 /* LaunchScreen.storyboard in Resources */,
 				D7E208FD27B041A20070A538 /* Assets.xcassets in Resources */,
+				D705FD1727B0B45E0004362C /* CustomTableViewCell.xib in Resources */,
 				D7E208FB27B0419E0070A538 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,10 +360,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7E208F827B0419E0070A538 /* ViewController.swift in Sources */,
+				D705FD2027B0F0600004362C /* PhotoViewModel.swift in Sources */,
+				D705FD0B27B08F0A0004362C /* PostViewModel.swift in Sources */,
+				D705FD2627B0F5A40004362C /* Utils.swift in Sources */,
+				D705FD2227B0F0CA0004362C /* CommentViewModel.swift in Sources */,
+				D705FD1E27B0EE6E0004362C /* UIView.swift in Sources */,
 				D7E2092C27B0462A0070A538 /* CommentModel.swift in Sources */,
 				D7E2092727B045900070A538 /* PostModel.swift in Sources */,
+				D705FD1627B0B45E0004362C /* CustomTableViewCell.swift in Sources */,
 				D7E208F427B0419E0070A538 /* AppDelegate.swift in Sources */,
+				D705FD1B27B0E5A70004362C /* PhotosController.swift in Sources */,
 				D7E2092927B045E60070A538 /* PhotoModel.swift in Sources */,
+				D705FD1927B0CDAC0004362C /* CustomTableViewCellDelegate.swift in Sources */,
 				D7E208F627B0419E0070A538 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
