@@ -26,7 +26,7 @@ class PostViewModel
             guard let jsonRes = data else { return }
             do
             {
-                sleep(1)
+                sleep(5)
                 let decoder = JSONDecoder()
                 self.dataSource = try decoder.decode([PostModel].self, from: jsonRes)
             }
